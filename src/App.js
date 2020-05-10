@@ -6,9 +6,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Title title = {'To Do'}/>
-        <List tasks = {['1','2']}/>
-        <List tasks = {['3','4']}/>
+        <Title title = {'work'}/>
+        <List />
       </div>
     )
   }
