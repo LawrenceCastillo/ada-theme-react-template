@@ -2,14 +2,15 @@ import React, {Component} from 'react';
 
 class Item extends Component {
   render() {
+    const group = this.props.group;
     return (
-      <div>
-        <h2>{this.props.company}</h2>
-        <ol>
-          <li>{this.props.position}</li>
-          <li>{this.props.description}</li>
-        </ol>
-      </div>
+      <figure>
+        <h2>{group.company}</h2>
+        <figureCaption>
+          <strong>{group.position}</strong>
+          <p>{group.description}</p>
+        </figureCaption>
+      </figure>
     )
   }
 }
