@@ -9,11 +9,11 @@ const Tile = (props) => {
   return (
     <figure className='figure'>
       <a href={group.site_url} target="_blank" rel='noopener noreferrer'> { imageTrue(group) } </a>
-      <figureCaption>
+      <figcaption>
         <h3>{group.role} - {group.location}</h3>
         <p>{group.timeframe}</p>
         <p>{group.description}</p>
-      </figureCaption>
+      </figcaption>
     </figure>
   )
 }
