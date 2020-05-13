@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import user from './info'
-import NavBar from './Components/NavBar'
+import Nav from './Components/Nav'
 import Header from './Components/Header'
 import SocialBar from './Components/Social/SocialBar'
 import Contact from './Components/Contact/Contact'
@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <Nav />
         <Header personal={personal} />
         <SocialBar icons={personal.social}/>
         <Contact personal={personal} />
