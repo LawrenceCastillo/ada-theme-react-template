@@ -5,7 +5,7 @@ import Header from './Components/Header'
 import SocialBar from './Components/Social/SocialBar'
 import Contact from './Components/Contact/Contact'
 import Wall from './Components/Wall/Wall'
-import Footer from './Footer'
+import Footer from './Components/Footer'
 
 const personal = user[0]
 const experience = user[1].groups

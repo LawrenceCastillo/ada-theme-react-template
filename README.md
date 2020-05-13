@@ -11,6 +11,7 @@ For now,
 1. Fork the repository
 2. git clone [link]
 3. cd into folder
-4. npm start
+4. npm install
+5. npm start
 
 All data for editing is in src/info.js - start there
