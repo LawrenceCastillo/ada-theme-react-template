@@ -13,7 +13,6 @@ export default
       skills:
       [
         'JavaScript', 'React.js', 'Node.js', 'Express.js', 'Redux', 'MongoDB', 'GraphQL', 'Firebase'
-
       ],
       social:       
       [

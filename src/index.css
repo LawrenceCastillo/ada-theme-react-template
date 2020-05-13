@@ -106,7 +106,7 @@ code {
   font-size: 18px;
 }
 .skills-grid {
-  margin: -15px 0 0 0;
+  margin: -10px 0 0 0;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
@@ -154,7 +154,20 @@ code {
 }
 /* End Wall + Tile */
 
-/* Naviation */
+/* Footer */
+.footer {
+  margin: 4em 0 2em 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+}
+.footer a {
+  color: #bbb;
+}
+/* End Footer */
+
+/* Navigation */
 nav {
   position: fixed;
   right: 4px;
