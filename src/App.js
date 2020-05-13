@@ -5,6 +5,7 @@ import Header from './Components/Header'
 import SocialBar from './Components/Social/SocialBar'
 import Contact from './Components/Contact/Contact'
 import Wall from './Components/Wall/Wall'
+import Wall3 from './Components/Wall3/Wall3'
 import Footer from './Components/Footer'
 
 const personal = user[0]
@@ -20,8 +21,8 @@ class App extends Component {
         <Header personal={personal} />
         <SocialBar icons={personal.social}/>
         <Contact personal={personal} />
-        <Wall section={'experience'} groups={experience} />
         <Wall section={'projects'} groups={projects} />
+        <Wall3 section={'experience'} groups={experience} />
         <Wall section={'education'} groups={education} />
         <Footer />
       </div>

@@ -154,6 +154,44 @@ code {
 }
 /* End Wall + Tile */
 
+/* Wall3 + Tile3 */
+.figure3-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.figure3 {
+  flex-basis: calc(25% - 4rem);
+  margin: 1rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 80, .1);
+  background-color: rgba(255, 255, 255, .6);
+  padding: 2rem;
+  flex-grow: 1;
+}
+.figure3-tile-photo {
+  width: 100%;
+  margin: -2rem 0rem 0rem -2rem;
+  padding: 2rem;
+}
+.figure3-tile-h2 {
+  font-family: 'Helvetica Neue';
+  color: #222;
+  font-size: 24px;
+  font-weight: 400;
+  margin: -2rem 0rem 0rem -2rem;
+  padding: 2rem;
+}
+.figure3-tile-h3 {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+}
+.figure3-tile-p {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+}
+/* End Wall3 + Tile3 */
+
 /* Footer */
 .footer {
   margin: 4em 0 2.5em 0;
