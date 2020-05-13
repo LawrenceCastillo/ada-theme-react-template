@@ -4,9 +4,9 @@ import Tile from './Tile';
 const Wall = (props) => {
   const section = props.section
   return (
-    <div>
+    <div className={section}>
       <h2 className='section-title'> {section} </h2>
-      <div className='photo-grid'>
+      <div className='figure-grid'>
         {props.groups.map((group, index) => <Tile key = {index} group={group}></Tile>)}
       </div>
     </div>

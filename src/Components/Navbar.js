@@ -9,51 +9,49 @@ class Navbar extends Component {
     return (
       <nav>
         <ul>
-          <li>
+           <li>
             <Link
               className='link'
-              activeClass="active"
-              to="Home"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={this.scrollToTop}>
-            Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              className='link'
-              activeClass="active"
-              to="Experience"
+              activeClass='active'
+              to='home'
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}>
-            Experience</Link>
+            <span role="img" aria-label="home">🏠</span></Link>
           </li>
           <li>
             <Link
               className='link'
-              activeClass="active"
-              to="Projects"
+              activeClass='active'
+              to='experience'
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}>
-            Projects</Link>
+            <span role="img" aria-label="experience">💼</span></Link>
           </li>
           <li>
             <Link
               className='link'
-              activeClass="active"
-              to="Education"
+              activeClass='active'
+              to='projects'
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}>
-            Education</Link>
+            <span role="img" aria-label="projects">🎒</span></Link>
+          </li>
+          <li>
+            <Link
+              className='link'
+              activeClass='active'
+              to='education'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+            <span role="img" aria-label="education">🎓</span></Link>
           </li>
         </ul>
       </nav> 

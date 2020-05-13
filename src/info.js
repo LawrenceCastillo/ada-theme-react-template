@@ -7,7 +7,7 @@ export default
       name: 'Lawrence Castillo',
       email: 'Lawrence.g.castillo@gmail.com',
       location: 'New York, NY',
-      headline: 'I\'m a webhead in NYC',
+      headline: 'Webhead in NYC',
       image: 'https://avatars1.githubusercontent.com/u/33098457?s=460&u=65f0d2c78bc9870e13e0b2147cc8f533a175d497&v=4',
       about: 'From carving woodblocks and making paper, to electroplating silver to copper for Daguerreotypes, I like to get my hands dirty when I\'m not working on code.',
     },

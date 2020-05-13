@@ -2,7 +2,8 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 const imageTrue = (group) => {
-  return group.image_url ? <img className='photo' src={group.image_url} alt={group.name} /> : <h2 className='h2-tile-name'>{group.name}</h2>
+  // return group.image_url ? <img className='figure-tile-photo' src={group.image_url} alt={group.name} /> : <h2 className='h2-tile-name'>{group.name}</h2>
+  return <h2 className='figure-tile-h2'>{group.name}</h2>
 }
 
 const Tile = (props) => {
@@ -12,8 +13,8 @@ const Tile = (props) => {
       <figure className='figure'>
         <a href={group.site_url} target="_blank" rel='noopener noreferrer'> { imageTrue(group) } </a>
         <figcaption>
-          <h3>{group.role} - {group.location}</h3>
-          <p>{group.timeframe}</p>
+          <h3 className='figure-tile-h3'>{group.role} - {group.location}</h3>
+          <p className='figure-tile-p'>{group.timeframe}</p>
           <p>{group.description}</p>
         </figcaption>
       </figure>
