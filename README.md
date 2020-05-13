@@ -1,10 +1,10 @@
-### "Ada" theme
+# "Ada" theme (React Template)
 
-Open Source ([MIT](https://opensource.org/licenses/MIT)), free to use. Please attribute me as the creator.
+#### Ada Lovelace (1815–1852) is considered the "first computer programmer" but her contributions to the field were not recognized until a century after her passing when she was posthumously awarded honors including a programming language being named after her (Ada, the first language I learned). Source: [Biography.com](https://www.biography.com/scholar/ada-lovelace)
 
-I am interested in seeing what sorts of improvements you make so I encourage you to share your derivations with me and/or issue pull requests if you come up with you think everyone would benefit from.
+I have made this React template, "Ada," Open Source ([MIT](https://opensource.org/licenses/MIT)). Feel free to fork a copy and alter it for your own use. Please attribute me as the creator.
 
-Watch this page for Netlify link, additional instructions, and tutorials.
+Watch this page for a Netlify link, additional instructions, and tutorials.
 
 For now,
 
