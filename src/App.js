@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Navbar from './Components/Navbar'
 import Header from './Components/Header'
-import Contact from './Components/Contact'
+import Contact from './Components/Contact/Contact'
 import Wall from './Components/Wall/Wall'
 import user from './info'
 

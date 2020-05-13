@@ -11,8 +11,7 @@ const Tile = (props) => {
       <figure className='figure'>
         <a href={group.site_url} target="_blank" rel='noopener noreferrer'> { imageTrue(group) } </a>
         <figcaption>
-          <h3 className='figure-tile-h3'>{group.role} - {group.location}</h3>
-          <p className='figure-tile-p'>{group.timeframe}</p>
+          <h3 className='figure-tile-h3'>{group.role} {'//'} {group.location} {'//'} {group.timeframe} </h3>
           <p className='figure-tile-p'>{group.description}</p>
         </figcaption>
       </figure>
