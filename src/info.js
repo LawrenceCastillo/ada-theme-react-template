@@ -32,7 +32,7 @@ export default
       interests:
       [
         'Making tools from microprocessors', 'Soldering gadgets', 'Photographing architecture', 'Reading critical art texts', 'Running for fun',
-      ]
+      ],
     },
     {
       section: 'Experience',
@@ -86,24 +86,44 @@ export default
       [
         {
           id: 1,
-          name: 'Matchmaking App',
+          name: 'React Template: "Ada"',
           image_url: '',
-          site_url: 'https://github.com/LawrenceCastillo/LLL',
+          site_url: 'https://github.com/LawrenceCastillo/ada-theme-react-template',
           location: 'NYC',
-          timeframe: '2019',
-          role: 'Fullstack Developer',
-          description: 'LAMP-based matchmaking application deployed on Raspberry Pi',
+          timeframe: '2020',
+          role: 'Front-end',
+          description: 'While [finally] developing my own personal website, I decided early on I wanted to be able to share the site. React templates are often hard to decipher so I made it simple by putting all data in one place and creating simple switches to change a section look instantly. Deployed via Netlify.',
         },
         {
           id: 2,
+          name: 'Photowall App',
+          image_url: '',
+          site_url: 'https://github.com/LawrenceCastillo/photowall',
+          location: 'NYC',
+          timeframe: '2020',
+          role: 'Fullstack',
+          description: 'Photowall application allows users to post images with descriptions, remove images, and leave comments. Deployed via Netlify, the app exists for the greater community to share their thoughts. Built with React, Redux, React-router, and Firebase.',
+        },
+        {
+          id: 3,
           name: 'Silent Alarm App',
           image_url: '',
           site_url: 'https://github.com/LawrenceCastillo/fashion_forward',
           location: 'NYC',
           timeframe: '2019',
           role: 'Team back-end developer',
-          description: 'Official HackNY hackathon entry and winner of best social good. MERN - React.js/ Express.js/ Node.js/ MongoDB/ Passport.js',
-        }
+          description: 'Official HackNY hackathon entry and winner of best social good award. I helped implement the backend (Node.js) with connectivity to MongoDB and authentication via Passport. I also set up Twilio so that our app could automatically send text messages.',
+        },
+        {
+          id: 4,
+          name: 'Matchmaking App',
+          image_url: '',
+          site_url: 'https://github.com/LawrenceCastillo/LLL',
+          location: 'NYC',
+          timeframe: '2019',
+          role: 'Fullstack',
+          description: 'Matchmaking application designed to pair individuals based on guidelines from "The Four Tendencies" by Gretchen Rubin -- but only for a limited time. Deployed to Raspberry (Apache) via port-forwarding, I designed the app in PHP and MySQL (LAMP).',
+        },
       ],
     },
     {
@@ -112,24 +132,24 @@ export default
       [
         {
           id: 1,
-          name: 'CUNY / Hunter College',
-          image_url: 'http://www.hunter.cuny.edu/hr/repository/images/Hunter%20CUNY%20logo.jpg',
+          name: 'Hunter College / CUNY',
+          image_url: '',
           site_url: 'https://hunter.cuny.edu/',
-          location: 'NYCY',
-          timeframe: 'October 2017 - January 2020',
-          role: 'Undergrad',
-          description: 'BS degree in Computer Science',
+          location: 'NYC',
+          timeframe: '10/17 - 01/20',
+          role: 'Graduated Jan 2020',
+          description: 'Bachelor of Science (BS) degree in Computer Science. Coursework included a focus on object oriented programming (OOP), algorithms, databases, data structures, and discreet mathematics, with an emphasis in C++, MySQL, Bash, and Python.',
         },
         {
           id: 2,
-          name: 'CUNY Tech Talent Pipeline / Fullstack Application Bootcamp',
-          image_url: 'https://cunytechprep.nyc/img/ttp-logo.png',
-          site_url: 'https://cunytechprep.nyc/',
+          name: 'Tech Talent Pipeline (TTP)',
+          image_url: '',
+          site_url: 'https://ttp.nyc/cuny-programs',
           location: 'NYC',
-          timeframe: 'June 2019 - January 2020',
-          role: 'Resident',
-          description: 'MERN stack, SQL, Authentication, Publishing',
-        }
+          timeframe: '06/19 - 01/20',
+          role: '2019 Resident',
+          description: 'Intensive fullstack web application bootcamp with focus on MERN stack (JS, React, Node, Mongo, Express ), with additional study in Git, MySQL, authentication with Passport, and deployment to Heroku.',
+        },
       ],
     },
   ]
