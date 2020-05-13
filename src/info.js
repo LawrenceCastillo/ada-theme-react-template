@@ -46,7 +46,7 @@ export default
           location: 'Remote',
           timeframe: '05/20 - Current',
           role: 'Web Developer intern',
-          description: 'Front-end web developer focused on Preact and Redux component development and testing within a Progressive Web App (PWA).',
+          description: 'Front-end web developer focused on Preact and Redux component development and testing within a progressive web app (PWA).',
         },
         {
           id: 2,
@@ -56,7 +56,7 @@ export default
           location: 'NYC',
           timeframe: '04/14 - Current',
           role: 'Web Designer & Photographer',
-          description: 'Do-it-all creative, photographer, web designer, pitch writer, Photoshop expert/ trainer.',
+          description: 'Do-it-all creative, photographer, web designer, pitch writer, Photoshop expert/ trainer. Develop custom (CSS/JS/PHP) website solutions on platforms with built-in editing and hosting features for small-scale clients.',
         },
         {
           id: 3,
@@ -66,7 +66,7 @@ export default
           location: 'NYC',
           timeframe: '06/19 - 08/19',
           role: 'Software Engineer intern',
-          description: 'Fullstack web product developer in React and Node with Airtable.',
+          description: 'Fullstack web product developer in React and Node with Airtable. Developed custom profile matching algorithm (Node.js) to predict candidate success and developed solution (React.js) to prioritize user feedback and route it to the appropriate department.',
         },
         {
           id: 4,
@@ -76,7 +76,7 @@ export default
           location: 'PAFB (FL)',
           timeframe: '10/05 - 04/14',
           role: 'Data Analyst & Supervisor',
-          description: 'Project control department supervisor, project manager, budget manager (’10-’14); data analyst (’05-’10)',
+          description: 'Project control department supervisor, project manager, budget manager (’10-’14); data analyst (’05-’10). Wrote macro scripts to automate financial analysis and developed project estimation toolset to automate pricing of external work requests.',
         },
         {
           id: 5,
