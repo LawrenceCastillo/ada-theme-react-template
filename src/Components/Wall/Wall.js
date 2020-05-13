@@ -1,5 +1,5 @@
-import React from 'react';
-import Tile from './Tile';
+import React from 'react'
+import Tile from './Tile'
 
 const Wall = (props) => {
   const section = props.section

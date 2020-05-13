@@ -1,5 +1,5 @@
-import React from 'react';
-import Fade from 'react-reveal/Fade';
+import React from 'react'
+import Fade from 'react-reveal/Fade'
 
 const Header = (props) => {
   const name = props.personal.name

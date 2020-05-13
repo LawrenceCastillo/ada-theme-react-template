@@ -18,7 +18,7 @@ export default
         {
           id: 1,
           name: 'Threshold',
-          image_url: 'https://assets.website-files.com/5e55bd2e833b1ab392999d38/5e55bffb6725fd5b242d88cb_threshold_hzLockup_bk_gn_boxless.svg',
+          image_url: '',
           site_url: 'https://www.threshold.co/site/about-us',
           location: 'Remote',
           timeframe: 'May 2020 - Current',
@@ -27,7 +27,7 @@ export default
         },
         {
           id: 2,
-          name: 'Sole-Proprietorship',
+          name: 'Freelance',
           image_url: '',
           site_url: 'http://lawrence-gabriel.com/',
           location: 'New York City',
@@ -38,7 +38,7 @@ export default
         {
           id: 3,
           name: 'WeWork Labs',
-          image_url: 'https://d24wuq6o951i2g.cloudfront.net/img/events/id/457/457586845/assets/bf1.-WeWork-Labs-Logo_Black_PNG.png',
+          image_url: '',
           site_url: 'https://www.wework.com/labs/',
           location: 'New York City',
           timeframe: 'June 2019 - August 2019',
@@ -47,7 +47,7 @@ export default
         },
         {
           id: 4,
-          name: 'L-3 Communications',
+          name: 'L-3 Com',
           image_url: '',
           site_url: 'https://www.l3t.com/',
           location: 'Patrick Air Force Base, FL',
@@ -63,7 +63,7 @@ export default
       [
         {
           id: 1,
-          name: 'Matchmaking web application',
+          name: 'Matchmaking App',
           image_url: '',
           site_url: 'https://github.com/LawrenceCastillo/LLL',
           location: 'New York, NY',
@@ -73,13 +73,13 @@ export default
         },
         {
           id: 2,
-          name: 'Silent alarm web app (HackNY)',
+          name: 'Silent Alarm App',
           image_url: '',
           site_url: 'https://github.com/LawrenceCastillo/fashion_forward',
           location: 'New York, NY',
           timeframe: '2019',
           role: 'Team back-end developer',
-          description: 'MERN - React.js/ Express.js/ Node.js/ MongoDB/ Passport.js',
+          description: 'Official HackNY hackathon entry and winner of best social good. MERN - React.js/ Express.js/ Node.js/ MongoDB/ Passport.js',
         }
       ],
     },

@@ -1,13 +1,11 @@
-import React from 'react';
-import Fade from 'react-reveal/Fade';
+import React from 'react'
+import Fade from 'react-reveal/Fade'
 
 const imageTrue = (group) => {
-  // return group.image_url ? <img className='figure-tile-photo' src={group.image_url} alt={group.name} /> : <h2 className='h2-tile-name'>{group.name}</h2>
-  return <h2 className='figure-tile-h2'>{group.name}</h2>
+  return group.image_url ? <img className='figure-tile-photo' src={group.image_url} alt={group.name} /> : <h2 className='figure-tile-h2'>{group.name}</h2>
 }
-
 const Tile = (props) => {
-  const group = props.group;
+  const group = props.group
   return (
     <Fade bottom>
       <figure className='figure'>
@@ -15,7 +13,7 @@ const Tile = (props) => {
         <figcaption>
           <h3 className='figure-tile-h3'>{group.role} - {group.location}</h3>
           <p className='figure-tile-p'>{group.timeframe}</p>
-          <p>{group.description}</p>
+          <p className='figure-tile-p'>{group.description}</p>
         </figcaption>
       </figure>
     </Fade>

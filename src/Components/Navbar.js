@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import React, {Component} from 'react'
+import { Link, animateScroll as scroll } from "react-scroll"
 
 class Navbar extends Component {
   scrollToTop = () => {
@@ -24,10 +24,21 @@ class Navbar extends Component {
             <Link
               className='link'
               activeClass='active'
+              to='contact'
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}>
+            <span role="img" aria-label="contact">📬</span></Link>
+          </li>
+          <li>
+            <Link
+              className='link'
+              activeClass='active'
               to='experience'
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-50}
               duration={500}>
             <span role="img" aria-label="experience">💼</span></Link>
           </li>
@@ -38,7 +49,7 @@ class Navbar extends Component {
               to='projects'
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-50}
               duration={500}>
             <span role="img" aria-label="projects">🎒</span></Link>
           </li>
@@ -49,7 +60,7 @@ class Navbar extends Component {
               to='education'
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-50}
               duration={500}>
             <span role="img" aria-label="education">🎓</span></Link>
           </li>
