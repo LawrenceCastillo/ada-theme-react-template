@@ -19,18 +19,15 @@ export default
       [
         {
           id: 1,
+          name: 'Github',
           icon_url: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
           profile_url: 'https://github.com/lawrencecastillo'
         },
         {
           id: 2,
+          name: 'LinkedIn',
           icon_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/768px-Linkedin_icon.svg.png',
           profile_url: 'https://www.linkedin.com/in/lawrence-gabriel-castillo/'
-        },
-        {
-          id: 3,
-          icon_url: 'https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png',
-          profile_url: 'https://www.instagram.com/lwrnc_gbrl/'
         },
       ],
       interests:

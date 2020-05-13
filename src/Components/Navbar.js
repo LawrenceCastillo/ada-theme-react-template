@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { Link, animateScroll as scroll } from "react-scroll"
 
-class Navbar extends Component {
+class NavBar extends Component {
   scrollToTop = () => {
     scroll.scrollToTop();
   };
@@ -70,4 +70,4 @@ class Navbar extends Component {
   }
 }
  
-export default Navbar;
+export default NavBar;
