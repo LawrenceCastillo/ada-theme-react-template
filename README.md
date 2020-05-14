@@ -6,7 +6,9 @@
 
 I have made this React template, "Ada," Open Source ([MIT](https://opensource.org/licenses/MIT)). Feel free to fork a copy and alter it for your own use. Please attribute me as the creator.
 
-Watch this page for a Netlify link, additional instructions, and tutorials.
+#### App deployed to Netlify, view here: [lawrencecastillo.netlify.app](https://lawrencecastillo.netlify.app/)
+
+Watch this page for updates, additional instructions, and tutorials.
 
 For now,
 
