@@ -193,7 +193,7 @@ code {
 }
 /* End Wall3 */
 
-/* List + Item */
+/* List */
 .list-grid {
   max-width: 1000px;
   margin: 0 auto;
@@ -221,7 +221,7 @@ code {
   font-family: 'Segoe UI';
   font-size: 16px;
 }
-/* End List + Item */
+/* End List */
 
 /* Footer */
 .footer {
