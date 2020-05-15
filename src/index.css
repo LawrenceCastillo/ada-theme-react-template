@@ -136,6 +136,7 @@ code {
   width: 100%;
   margin: -2rem 0rem 0rem -2rem;
   padding: 2rem;
+  min-width: 200px; 
 }
 .wall2-h2 {
   font-family: 'Helvetica Neue';
@@ -174,6 +175,7 @@ code {
   width: 100%;
   margin: -2rem 0rem 0rem -2rem;
   padding: 2rem;
+  min-width: 200px; 
 }
 .wall3-h2 {
   font-family: 'Helvetica Neue';
