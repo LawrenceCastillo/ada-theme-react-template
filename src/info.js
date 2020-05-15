@@ -112,7 +112,7 @@ export default
           location: 'NYC',
           timeframe: '2020',
           role: 'Front-end',
-          description: 'While [finally] developing my own personal website, I decided early on I wanted to be able to share the site. React templates are often hard to decipher so I made it simple by putting all data in one place and creating simple switches to change a section look instantly. Deployed via Netlify.',
+          description: 'While developing this website for my personal use, I decided early on I wanted to be able to share the site. React templates are often hard to decipher so I made this one simple by putting all data in one place and creating simple switches to change a collection look instantly. Deployed via Netlify.',
         },
         {
           id: 2,
@@ -122,7 +122,7 @@ export default
           location: 'NYC',
           timeframe: '2020',
           role: 'Fullstack',
-          description: 'The Photowall app allows users to create image posts with descriptions, delete posts, and add comments. Built with React, Redux, React-router, Firebase, and deployed via Netlify, the app is the result of an online course I undertook in order to refine my React/Redux skillset.',
+          description: 'The Photowall app allows users to create image posts with descriptions, delete posts, and add comments. Built with React, Redux, React-router, Firebase, and deployed via Netlify, the app is the result of completing an online course I undertook in order to refine my React/Redux skillset.',
         },
         {
           id: 3,
