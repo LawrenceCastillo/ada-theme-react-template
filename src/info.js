@@ -107,7 +107,7 @@ export default
         {
           id: 1,
           name: 'React Template: "Ada"',
-          image_url: '',
+          image_url: 'https://raw.githubusercontent.com/LawrenceCastillo/__content__/master/Ada-theme-thumbnail_.jpg',
           site_url: 'https://github.com/LawrenceCastillo/ada-theme-react-template',
           location: 'NYC',
           timeframe: '2020',
@@ -117,7 +117,7 @@ export default
         {
           id: 2,
           name: 'Photowall App',
-          image_url: '',
+          image_url: 'https://raw.githubusercontent.com/LawrenceCastillo/__content__/master/Photowall-thumbnail.jpg',
           site_url: 'https://github.com/LawrenceCastillo/photowall',
           location: 'NYC',
           timeframe: '2020',
