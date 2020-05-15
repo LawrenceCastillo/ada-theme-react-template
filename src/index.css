@@ -117,7 +117,7 @@ code {
 }
 /* End Contact */
 
-/* Wall + Tile */
+/* Wall2 */
 .wall2-grid {
   max-width: 1000px;
   margin: 0 auto;
@@ -153,9 +153,9 @@ code {
   font-family: 'Segoe UI';
   font-size: 16px;
 }
-/* End Wall + Tile */
+/* End Wall2 */
 
-/* Wall3 + Tile3 */
+/* Wall3 */
 .wall3-grid {
   max-width: 1000px;
   margin: 0 auto;
@@ -191,7 +191,7 @@ code {
   font-family: 'Segoe UI';
   font-size: 16px;
 }
-/* End Wall3 + Tile3 */
+/* End Wall3 */
 
 /* List + Item */
 .list-grid {
