@@ -122,7 +122,7 @@ export default
           location: 'NYC',
           timeframe: '2020',
           role: 'Fullstack',
-          description: 'Photowall application allows users to post images with descriptions, remove images, and leave comments. Deployed via Netlify, the app exists for the greater community to share their thoughts. Built with React, Redux, React-router, and Firebase.',
+          description: 'The Photowall app allows users to create image posts with descriptions, delete posts, and add comments. Built with React, Redux, React-router, Firebase, and deployed via Netlify, the app is the result of an online course I undertook in order to refine my React/Redux skillset.',
         },
         {
           id: 3,
