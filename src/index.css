@@ -126,6 +126,7 @@ code {
 }
 .wall2 {
   flex-basis: calc(33.333% - 4rem);
+  min-width: 200px; 
   margin: 1rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 80, .1);
   background-color: rgba(255, 255, 255, .6);
@@ -136,7 +137,6 @@ code {
   width: 100%;
   margin: -2rem 0rem 0rem -2rem;
   padding: 2rem;
-  min-width: 200px; 
 }
 .wall2-h2 {
   font-family: 'Helvetica Neue';
@@ -165,6 +165,7 @@ code {
 }
 .wall3 {
   flex-basis: calc(25% - 4rem);
+  min-width: 200px; 
   margin: 1rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 80, .1);
   background-color: rgba(255, 255, 255, .6);
@@ -175,7 +176,6 @@ code {
   width: 100%;
   margin: -2rem 0rem 0rem -2rem;
   padding: 2rem;
-  min-width: 200px; 
 }
 .wall3-h2 {
   font-family: 'Helvetica Neue';
@@ -209,6 +209,7 @@ code {
   color: #222;
   font-size: 24px;
   font-weight: 400;
+  min-width: 200px; 
 }
 .list {
   padding: 0 0 0 0;
