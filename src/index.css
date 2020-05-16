@@ -209,11 +209,11 @@ code {
   color: #222;
   font-size: 24px;
   font-weight: 400;
-  min-width: 200px; 
 }
 .list {
   padding: 0 0 0 0;
   text-align: left;
+  min-width: 200px; 
 }
 .list-h3 {
   font-family: 'Segoe UI';
