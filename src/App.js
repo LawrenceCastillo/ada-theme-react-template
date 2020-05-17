@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Helmet} from "react-helmet";
 import user from './info'
 import Nav from './Components/Nav'
 import Header from './Components/Header'
@@ -23,6 +24,14 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <html lang="en"></html>
+          <title> {personal.name} | {personal.headline} </title>
+          <link rel="canonical" href="http://lawrencecastillo.com" />
+          <meta name="description" content={personal.description} />
+          <meta name="keywords" content={personal.skills} />
+        </Helmet>
         <Nav />
         <Header personal={personal} />
         <SocialBar icons={personal.social}/>

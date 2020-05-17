@@ -8,6 +8,7 @@ export default
       email: 'Lawrence.g.castillo@gmail.com',
       location: 'NYC',
       headline: 'Webhead in NYC',
+      description: 'I\'m a software developer in New York City, NY. Welcome to my personal portfolio page where you can view some of my web app projects, my academic achievements, as well as my employment history. Have a look around and feel free to contact me!',
       image: 'https://avatars1.githubusercontent.com/u/33098457?s=460&u=65f0d2c78bc9870e13e0b2147cc8f533a175d497&v=4',
       about: 'Hey, I\'m Lawrence 👋 I\'m a fanatic about new technologies including microprocessors for around-the-home projects and all things involving AR... It\'s the future of tech. When I\'m not geeking out on new technology or coding apps for the web, you can generally find me getting my hands dirty with everything from carving woodblocks and making paper, to electroplating silver to copper for Daguerreotypes. Say hi and let\'s talk about your project.',
       skills:
