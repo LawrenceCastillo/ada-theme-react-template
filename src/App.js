@@ -25,8 +25,6 @@ class App extends Component {
     return (
       <div>
         <Helmet>
-          <meta charSet="utf-8" />
-          <html lang="en"></html>
           <title> {personal.name} | {personal.headline} </title>
           <link rel="canonical" href="http://lawrencecastillo.com" />
           <meta name="description" content={personal.description} />
