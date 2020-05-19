@@ -109,7 +109,7 @@ export default
         {
           id: 1,
           name: 'React Template: "Ada"',
-          image_url: 'https://raw.githubusercontent.com/LawrenceCastillo/__content__/master/Ada-theme-thumbnail_.jpg',
+          image_url: 'https://lh3.googleusercontent.com/pw/ACtC-3d2kAf93fcQGJgm-55gw7IQDa98EtejQB8M3KizMIY3zEhUdnA2HqWasuOhLFQw-pKk0b9unaRqUD0Yd38cfaZ4urUS_39vQZyiU9NeW4jcIVUaK4xcAfUF0S8fMpJubn_Go0BYDwcgBxekuci35UMJYw=w1000-h667-no?authuser=0',
           site_url: 'https://github.com/LawrenceCastillo/ada-theme-react-template',
           location: 'NYC',
           timeframe: '2020',
@@ -119,7 +119,7 @@ export default
         {
           id: 2,
           name: 'Photowall App',
-          image_url: 'https://raw.githubusercontent.com/LawrenceCastillo/__content__/master/Photowall-thumbnail.jpg',
+          image_url: 'https://lh3.googleusercontent.com/pw/ACtC-3dXeKyUpoUXt8Ujb_m_nqZUQVnmWycwq4R80SrfoOkc_ZLLVhz6SHxIWDB9Kpo0wYGA7jqiAbFyIInHLfWcEMSSSienpjzuyQHW_1PcQPiPfVbGEpQ5djOyZ0MOCPF7gqjULSZ5B6VXzl8o8Ysr_MA3IA=w1000-h667-no?authuser=0',
           site_url: 'https://github.com/LawrenceCastillo/photowall',
           location: 'NYC',
           timeframe: '2020',
@@ -129,7 +129,7 @@ export default
         {
           id: 3,
           name: 'Silent Alarm App',
-          image_url: 'https://raw.githubusercontent.com/LawrenceCastillo/__content__/master/silent-alarm-app.jpg',
+          image_url: 'https://lh3.googleusercontent.com/pw/ACtC-3dElfLFMyuw3N8_IzplwCHqEjq2FNAuvqWvCAHtPEx1aFN2qNs1UHG5VpvllMy69DADZfudA9aSoNf79TjrZofbMR8qey8CDnLLnsVb5ef5NJl2WCjHjefuZcAvYfchqv-_W_MAZ8nk2xgZqJYe0FNkLg=w1000-h667-no?authuser=0',
           site_url: 'https://github.com/LawrenceCastillo/fashion_forward',
           location: 'NYC',
           timeframe: '2019',
@@ -139,7 +139,7 @@ export default
         {
           id: 4,
           name: 'Matchmaking App',
-          image_url: 'https://raw.githubusercontent.com/LawrenceCastillo/__content__/master/Fashion-Forward-thumbnail_.jpg',
+          image_url: 'https://lh3.googleusercontent.com/pw/ACtC-3fusEHLl4ACUV4rFYIevm9KlvF4jOBseiPCqnu3XKbHVMxCgvRoRHXfbzqvqYdhQcWZq1PRe2fFTsgraTDTfOrsIDUSgmXA80FyOlcnh6j1PY0hOwSNu6Qrhjz6DXf-uMxrBge3SYSyz9hZF8EZcQkkuQ=w1000-h667-no?authuser=0',
           site_url: 'https://github.com/LawrenceCastillo/LLL',
           location: 'NYC',
           timeframe: '2019',
