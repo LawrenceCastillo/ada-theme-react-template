@@ -1,12 +1,12 @@
-import React, {Component} from 'react'
-import {Helmet} from "react-helmet";
+import React, { Component } from 'react'
+import { Helmet } from "react-helmet";
 import user from './info'
-import Nav from './Components/Nav'
-import Header from './Components/Header'
-import SocialBar from './Components/Social/SocialBar'
-import Contact from './Components/Contact/Contact'
-import Collection from './Components/Collections/Collection'
-import Footer from './Components/Footer'
+import { NavigationBar } from './Components/navigation-bar/navigation-bar.component'
+import { Header } from './Components/header/header.component'
+import { SocialBar } from './Components/social-bar/social-bar.component'
+import { Contact } from './Components/contact-about/contact.component'
+import { Collection } from './Components/collection/collection.component'
+import { Footer } from './Components/footer/footer.component'
 
 /* 
   Designs: 
@@ -25,14 +25,12 @@ class App extends Component {
     return (
       <div>
         <Helmet>
-          <meta charSet="utf-8" />
-          <html lang="en"></html>
           <title> {personal.name} | {personal.headline} </title>
-          <link rel="canonical" href="http://lawrencecastillo.com" />
+          <link rel="canonical" href={personal.domain} />
           <meta name="description" content={personal.description} />
           <meta name="keywords" content={personal.skills} />
         </Helmet>
-        <Nav />
+        <NavigationBar />
         <Header personal={personal} />
         <SocialBar icons={personal.social}/>
         <Contact personal={personal} />

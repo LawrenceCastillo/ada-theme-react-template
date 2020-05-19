@@ -6,6 +6,7 @@ export default
       section: 'Personal',
       name: 'Lawrence Castillo',
       email: 'Lawrence.g.castillo@gmail.com',
+      domain: 'http://lawrencecastillo.com',
       location: 'NYC',
       headline: 'Webhead in NYC',
       description: 'I\'m a software developer in New York City, NY. Welcome to my personal portfolio page where you can view some of my web app projects, my academic achievements, as well as my employment history. Have a look around and feel free to contact me!',

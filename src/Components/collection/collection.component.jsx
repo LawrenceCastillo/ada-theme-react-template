@@ -1,7 +1,10 @@
 import React from 'react'
-import Detail from './Detail'
+import Detail from './detail/detail.component'
+import './collection.styles.wall2.css'
+import './collection.styles.wall3.css'
+import './collection.styles.list.css'
 
-const Collection = (props) => {
+export const Collection = props => {
   const section = props.section
   const groups = props.groups
   const design = props.design
@@ -14,5 +17,3 @@ const Collection = (props) => {
     </div>
   )
 }
-
-export default Collection;

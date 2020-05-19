@@ -1,8 +1,9 @@
 import React from 'react'
-import Skill from './Skill'
 import Fade from 'react-reveal/Fade'
+import { Skill } from './skill/skill.component'
+import './contact.styles.css'
 
-const Contact = (props) => {
+export const Contact = props => {
   const image = props.personal.image
   const about = props.personal.about
   const skills = props.personal.skills
@@ -25,5 +26,3 @@ const Contact = (props) => {
     </div>
   )
 }
-
-export default Contact;

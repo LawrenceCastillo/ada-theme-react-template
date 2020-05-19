@@ -1,0 +1,12 @@
+
+.footer {
+  margin: 8em 0 2.5em 0;
+  font-family: 'Helvetica Neue';
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+}
+.footer-link {
+  color: #bbb;
+}
