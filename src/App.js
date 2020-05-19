@@ -28,7 +28,7 @@ class App extends Component {
           <title> {personal.name} | {personal.headline} </title>
           <link rel="canonical" href={personal.domain} />
           <meta name="description" content={personal.description} />
-          <meta name="keywords" content={personal.skills} />
+          <meta name="keywords" content={personal.keywords} />
         </Helmet>
         <NavigationBar />
         <Header personal={personal} />
