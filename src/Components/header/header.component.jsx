@@ -1,7 +1,8 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
+import './header.styles.css'
 
-const Header = (props) => {
+export const Header = props => {
   const name = props.personal.name
   const headline = props.personal.headline
   const email = props.personal.email
@@ -10,10 +11,14 @@ const Header = (props) => {
       <div className='header'>
         <h1 className='header-h1'><Fade bottom> {name} </Fade></h1>
         <h1 className='header-h2'><Fade bottom> {headline} </Fade></h1>
-        <button className='header-email-button'><a href={`mailto:${email}`} rel="noopener noreferrer" > Get in Touch </a></button>
+        <button className='header-email-button'>
+          <a 
+            href={`mailto:${email}`} 
+            rel="noopener noreferrer" > 
+              Get in Touch 
+          </a>
+        </button>
       </div>
     </div>
   )
 }
-
-export default Header;

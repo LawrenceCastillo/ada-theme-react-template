@@ -1,5 +1,8 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
+import './detail.styles.wall2.css'
+import './detail.styles.wall3.css'
+import './detail.styles.list.css'
 
 const imageTrue = (design, group) => {
   return group.image_url ? <img className={`${design}-photo`} src={group.image_url} alt={group.name} /> : <h2 className={`${design}-h2`}>{group.name}</h2>
