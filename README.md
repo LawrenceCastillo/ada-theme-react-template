@@ -8,13 +8,13 @@
 
 App deployed to Netlify, view here: [lawrencecastillo.netlify.app](https://lawrencecastillo.netlify.app/)
 
-Running this app:
+#### Running this app:
 1. Fork the repository
 2. git clone [link]
 3. cd into folder, run npm install
 4. npm start
 
-Editing this app:
+#### Editing this app:
 1. Sitewide content: src/info.js
 2. Header background: src/Components/header/header.styles.css
 3. Section order & built-in styling switches: src/App.js
