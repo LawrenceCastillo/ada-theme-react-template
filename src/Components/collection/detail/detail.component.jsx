@@ -7,7 +7,7 @@ import './detail.styles.list.css'
 const imageTrue = (design, group) => {
   return group.image_url ? <img className={`${design}-photo`} src={group.image_url} alt={group.name} /> : <h2 className={`${design}-h2`}>{group.name}</h2>
 }
-const Detail = (props) => {
+export const Detail = props => {
   const group = props.group
   const design = props.design
   if (design === 'list') {
@@ -36,5 +36,3 @@ const Detail = (props) => {
     )
   }
 }
-
-export default Detail;

@@ -14,7 +14,7 @@ export const Contact = props => {
         <div className='about-grid'>
           <div className='about'>
             <img className='contact-img' src={image} alt="Lawrence Gabriel Castillo"></img>
-            <h2 className='contact-h2'> About </h2>
+            <h2 className='contact-h2'> about </h2>
             <p className='contact-p'> {about} </p>
             <p className='contact-p'> Here are a few of my (recent) favorite technologies: </p>
             <div className='skills-grid'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Detail from './detail/detail.component'
+import { Detail } from './detail/detail.component'
 import './collection.styles.wall2.css'
 import './collection.styles.wall3.css'
 import './collection.styles.list.css'
