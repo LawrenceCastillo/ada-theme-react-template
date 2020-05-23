@@ -8,6 +8,7 @@ export default
       email: 'Lawrence.g.castillo@gmail.com',
       domain: 'http://lawrencecastillo.com',
       keywords: 'lawrence castillo, web developer, software engineer, new york, nyc, web engineer, front-end developer, ux/ui developer, manhattan, react developer, node developer, fullstack developer, developer, engineer, web, backend developer, backend engineer, lawrence gabriel castillo, javascript, js, react.js, node.js, sql, nosql, web designer',
+      background_url: 'https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a',
       location: 'NYC',
       headline: 'Webhead in NYC',
       description: 'I\'m a software developer in New York City, NY. Welcome to my personal portfolio page where you can view some of my web app projects, my academic achievements, as well as my employment history. Have a look around and feel free to contact me!',
