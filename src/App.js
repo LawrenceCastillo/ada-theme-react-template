@@ -16,9 +16,9 @@ import { Footer } from './Components/footer/footer.component'
 */
 
 const personal = user[0]
-const experience = user[1].groups
-const projects = user[2].groups
-const education = user[3].groups
+const experience = user[1].experience
+const projects = user[2].projects
+const education = user[3].education
 
 class App extends Component {
   render() {

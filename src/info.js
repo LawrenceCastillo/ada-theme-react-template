@@ -39,8 +39,7 @@ export default
       ],
     },
     {
-      section: 'Experience',
-      groups: 
+      experience: 
       [
         {
           id: 1,
@@ -75,8 +74,7 @@ export default
       ],
     },
     {
-      section: 'Projects', 
-      groups: 
+      projects: 
       [
         {
           id: 1,
@@ -121,8 +119,7 @@ export default
       ],
     },
     {
-      section: 'education',
-      groups:
+      education:
       [
         {
           id: 1,
