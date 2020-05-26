@@ -26,17 +26,47 @@ class App extends Component {
       <div>
         <Helmet>
           <title> {personal.name} | {personal.headline} </title>
-          <link rel="canonical" href={personal.domain} />
-          <meta name="description" content={personal.description} />
-          <meta name="keywords" content={personal.keywords} />
+          <link 
+            rel="canonical" 
+            href={personal.domain} />
+          <meta 
+            name="description" 
+            content={personal.description} />
+          <meta 
+            name="keywords" 
+            content={personal.keywords} />
         </Helmet>
         <NavigationBar />
         <Header personal={personal} />
         <SocialBar icons={personal.social}/>
         <Contact personal={personal} />
-        <Collection      section={'projects'  }     design={'wall2'}     groups={projects} />
-        <Collection      section={'experience'}     design={'wall3'}     groups={experience} />
-        <Collection      section={'education' }     design={'list' }     groups={education} />
+
+        {/* 
+          Begin Edit
+          • 'section' may be named any string
+          • 'design' must be wall2, wall3, or list
+          • 'groups' must be named in accordance with info.js
+         */}
+
+        <Collection 
+          section={'projects'} 
+          design={'wall2'} 
+          groups={projects} />
+
+        <Collection  
+          section={'experience'} 
+          design={'wall3'} 
+          groups={experience} />
+
+        <Collection 
+          section={'education'} 
+          design={'list'} 
+          groups={education} />
+
+        {/* 
+          End Edit
+        */}
+
         <Footer />
       </div>
     )
