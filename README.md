@@ -18,4 +18,4 @@ App deployed to Netlify, view here: [lawrencecastillo.netlify.app](https://lawre
 1. Sitewide content: src/info.js
 2. Section order & built-in styling switches: src/App.js
 
-Please visit my article on Medium.com, "[7 Steps to a Free Website Using React and Netlify](https://medium.com/@lawrence.g.castillo/8-steps-to-a-free-website-using-react-and-netlify-5e2149ede464)," for more information on editing this app, as well as additional steps for deploying to Netlify.
+Please visit my article on Medium.com, "[7 Steps to a Free Website Using React and Netlify](https://medium.com/p/8-steps-to-a-free-website-using-react-and-netlify-5e2149ede464?source=email-abec3c1d275a--writer.postDistributed&sk=1193015e517224b9cde6068ee31bd33d)," for more information on editing this app, as well as additional steps for deploying to Netlify.
