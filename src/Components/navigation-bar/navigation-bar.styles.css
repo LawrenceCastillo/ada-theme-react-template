@@ -5,7 +5,7 @@ nav {
   z-index: 100;
   text-transform: uppercase;
   font-family: 'Helvetica Neue';
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 800;
   background-color: white;
   align-content: left;
@@ -19,7 +19,7 @@ nav li {
 nav li .link {
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
-  padding: 1em;
+  margin: .85em;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
