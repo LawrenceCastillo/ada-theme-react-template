@@ -15,13 +15,31 @@ import { Footer } from './Components/footer/footer.component'
     list 
 */
 
-const personal = user[0]
-const experience = user[1].experience
-const projects = user[2].projects
-const education = user[3].education
-
 class App extends Component {
+  constructor(){
+    super()
+    this.state = {
+      personal: user.personal[0],
+      experience: user.groups[0].experience,
+      projects: user.groups[1].projects,
+      education: user.groups[2].education,
+    }
+  }
+
+  componentDidMount() {
+    fetch('http://localhost:3001/api/users/genkey')
+    .then(response => response.json())
+    .then(userAPI => this.setState({ 
+      personal: userAPI.personal[0],
+      experience: userAPI.groups[0].experience,
+      projects: userAPI.groups[1].projects,
+      education: userAPI.groups[2].education, 
+    }))
+    .catch(err => {console.log(err)})
+  }
+
   render() {
+    const { personal, experience, projects, education } = this.state
     return (
       <div>
         <Helmet>
