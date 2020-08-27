@@ -31,7 +31,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:3001/api/users/genkey')
+    fetch('') // API endpoint 
     .then(response => response.json())
     .then(userAPI => this.setState({ 
       personal: userAPI.personal[0],
