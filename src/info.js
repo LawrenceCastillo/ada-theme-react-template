@@ -47,12 +47,13 @@ export default
           {
             id: 1,
             name: 'Threshold.co',
-            image_url: '',
+            image_url: 'https://assets.website-files.com/5e55bd2e833b1ab392999d38/5e55bffb6725fd5b242d88cb_threshold_hzLockup_bk_gn_boxless.svg',
             site_url: 'https://www.threshold.co/site/about-us',
             location: 'Remote',
-            timeframe: '05/20 - Current',
-            role: 'Web Developer intern',
-            description: 'Progressive web app (PWA) front-end (UI/UX) development and testing using JavaScript, Preact, Redux, and HTML/SASS.',
+            timeframe: 'May 2020 - Current',
+            role: 'Web Developer (Frontend)',
+            description: 'Implementing front-end (Preact/JSX/SASS) components and testing suite (Ghost Inspector); this is a part-time position',
+            highlights: ['Optimized Canvas-based image cropping and uploading tool to enhance image quality and usability','Implemented UI for user-based worklflows (JavaScript/ SASS) for several key initiatives, including onboarding','Created test suite and designed single function test modules to be stacked to create comprehensive tests'],
           },
           {
             id: 2,
@@ -63,6 +64,7 @@ export default
             timeframe: '04/14 - Current',
             role: 'Web Designer & Photographer',
             description: 'Customize off-the-shelf web solutions for small-scale clients, with emphasis on UI/UX design and extended functionality with JS/PHP.',
+            highlights: ['◊ Optimized Canvas-based image cropping and uploading tool to enhance image quality and usability','◊ Implemented UI for user-based worklflows (JavaScript/ SASS) for several key initiatives, including onboarding','◊ Created test suite and designed single function test modules to be stacked to create comprehensive tests'],
           },
           {
             id: 3,
@@ -73,6 +75,7 @@ export default
             timeframe: '06/19 - 08/19',
             role: 'Software Engineer intern',
             description: 'Fullstack (React, Node, Airtable) web engineering role developing two product initiatives/ proof of concepts over two agile cycles.',
+            highlights: ['◊ Optimized Canvas-based image cropping and uploading tool to enhance image quality and usability','◊ Implemented UI for user-based worklflows (JavaScript/ SASS) for several key initiatives, including onboarding','◊ Created test suite and designed single function test modules to be stacked to create comprehensive tests'],
           },
         ],
       },
@@ -133,6 +136,7 @@ export default
             timeframe: '10/17 - 01/20',
             role: 'Computer Science major',
             description: 'Graduated with Bachelor of Science (BS) degree in Computer Science on Jan 31, 2020. Coursework included a focus on object oriented programming (OOP), algorithms, databases, data structures, and discreet mathematics, with an emphasis in C++, MySQL, Bash, and Python.',
+            highlights: [],
           },
           {
             id: 2,
@@ -143,6 +147,7 @@ export default
             timeframe: '06/19 - 01/20',
             role: '2019 Resident',
             description: 'Intensive fullstack web application bootcamp with focus on MERN stack (JS, React, Node, Mongo, Express ), with additional study in Git, MySQL, authentication with Passport, and deployment to Heroku.',
+            highlights: [],
           },
           {
             id: 3,
@@ -153,6 +158,7 @@ export default
             timeframe: '08/03 - 12/09',
             role: 'Electronics Technology major',
             description: 'Associate of Science (AS) degree in Electronics completed in \'09. Coursework included digital circuit design and analysis, measurement and instrumentation, and programming',
+            highlights: [],
           },
         ],
       },

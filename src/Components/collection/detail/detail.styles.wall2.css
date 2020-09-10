@@ -20,10 +20,19 @@
   padding: 2rem;
 }
 .wall2-h3 {
-  font-family: 'Segoe UI';
-  font-size: 16px;
+  font-family: 'Helvetica Neue';
+  font-size: 1rem;
 }
 .wall2-p {
   font-family: 'Segoe UI';
   font-size: 16px;
+}
+.wall2-ul {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  padding-inline-start: 1.4rem;
+}
+.wall2-li {
+  margin-bottom: .2rem;
+  list-style-type: square;
 }
