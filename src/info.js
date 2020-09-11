@@ -69,7 +69,7 @@ export default
           {
             id: 3,
             name: 'Daily Zone',
-            image_url: '/images/Daily-Zone.jpg',
+            image_url: '/images/Daily-Zone-app.jpg',
             site_url: '',
             location: 'Remote',
             timeframe: 'September 2020 - Current',
