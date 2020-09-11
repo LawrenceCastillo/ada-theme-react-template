@@ -17,7 +17,7 @@ export default
         about: 'Hey, I\'m Lawrence 👋 I\'m a fanatic about new technologies including microprocessors for around-the-home projects and all things involving AR... It\'s the future of tech. When I\'m not geeking out on new technology or coding apps for the web, you can generally find me getting my hands dirty with everything from carving woodblocks and making paper, to electroplating silver to copper for Daguerreotypes. Say hi and let\'s talk about your project.',
         skills:
         [
-          'JavaScript', 'React.js', 'Node.js', 'Express.js', 'Redux', 'MongoDB', 'GraphQL', 'Firebase'
+          'JavaScript/ TypeScript', 'React/ React-Native', 'Swift/ SwiftUI', 'CSS/ SASS', 'Redux', 'Hooks', 'MobX', 'GraphQL', 'Node.js','MongoDB', 'Firebase', 'Netlify'
         ],
         social:       
         [
@@ -108,7 +108,7 @@ export default
             timeframe: '04/14 - Current',
             role: 'Sole-Proprietor, Web Designer & Photographer/Editor',
             description: 'Web designer, production tech, photographer, photo editor - side gig to finish school',
-            highlights: ['Provide web management services and technical expertise to commercial multimedia production houses','Customize off-the-shelf web solutions for small-scale clients, with emphasis on UI/UX design'],
+            highlights: ['Provide web management services and technical expertise to commercial multimedia production houses','Customize off-the-shelf web solutions for small-scale clients, with emphasis on UI/UX design','Provide digital photography and editing services (Adobe Creative Suite) for private and commercial clients'],
           },
         ],
       },
@@ -167,8 +167,8 @@ export default
             site_url: 'https://hunter.cuny.edu/',
             location: 'NYC',
             timeframe: '10/17 - 01/20',
-            role: 'Computer Science major',
-            description: 'Graduated with Bachelor of Science (BS) degree in Computer Science on Jan 31, 2020. Coursework included a focus on object oriented programming (OOP), algorithms, databases, data structures, and discreet mathematics, with an emphasis in C++, MySQL, Bash, and Python.',
+            role: 'Bachelor of Science (BS) degree in Computer Science',
+            description: 'Graduated with on Jan 31, 2020. Coursework included a focus on object oriented programming (OOP), algorithms, databases, data structures, and discreet mathematics, with an emphasis in C++, MySQL, Bash, and Python.',
             highlights: [],
           },
           {
@@ -178,8 +178,8 @@ export default
             site_url: 'https://ttp.nyc/cuny-programs',
             location: 'NYC',
             timeframe: '06/19 - 01/20',
-            role: '2019 Resident',
-            description: 'Intensive fullstack web application bootcamp with focus on MERN stack (JS, React, Node, Mongo, Express ), with additional study in Git, MySQL, authentication with Passport, and deployment to Heroku.',
+            role: '2019 Resident + Fullstack Application Bootcamp',
+            description: 'Intensive fullstack web application bootcamp with focus on MERN stack (JS, React, Node, MongoDB, Express ), with additional study in Git, MySQL, authentication with Passport, and deployment to Heroku.',
             highlights: [],
           },
           {
@@ -189,8 +189,8 @@ export default
             site_url: 'https://www.hancockcollege.edu/',
             location: 'CA',
             timeframe: '08/03 - 12/09',
-            role: 'Electronics Technology major',
-            description: 'Associate of Science (AS) degree in Electronics completed in \'09. Coursework included digital circuit design and analysis, measurement and instrumentation, and programming',
+            role: 'Associate of Science (AS) degree in Electronics',
+            description: 'AS degree completed in \'09. Coursework included digital circuit design and analysis, measurement and instrumentation, and programming',
             highlights: [],
           },
         ],
