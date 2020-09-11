@@ -47,7 +47,7 @@ export default
           {
             id: 1,
             name: 'Threshold.co',
-            image_url: 'https://assets.website-files.com/5e55bd2e833b1ab392999d38/5e55bffb6725fd5b242d88cb_threshold_hzLockup_bk_gn_boxless.svg',
+            image_url: '/images/Threshold-logo.jpg',
             site_url: 'https://www.threshold.co/site/about-us',
             location: 'Remote',
             timeframe: 'May 2020 - Current',
@@ -57,6 +57,17 @@ export default
           },
           {
             id: 2,
+            name: 'HelixMusic.app',
+            image_url: '/images/Helix-Music-logo.jpg',
+            site_url: 'https://www.threshold.co/site/about-us',
+            location: 'Remote',
+            timeframe: 'May 2020 - Current',
+            role: 'Web Developer (Frontend)',
+            description: 'Implementing front-end (Preact/JSX/SASS) components and testing suite (Ghost Inspector); this is a part-time position',
+            highlights: ['Optimized Canvas-based image cropping and uploading tool to enhance image quality and usability','Implemented UI for user-based worklflows (JavaScript/ SASS) for several key initiatives, including onboarding','Created test suite and designed single function test modules to be stacked to create comprehensive tests'],
+          },
+          {
+            id: 6,
             name: '[ Freelance ]',
             image_url: '',
             site_url: 'http://lawrence-gabriel.com/',
@@ -67,7 +78,7 @@ export default
             highlights: ['◊ Optimized Canvas-based image cropping and uploading tool to enhance image quality and usability','◊ Implemented UI for user-based worklflows (JavaScript/ SASS) for several key initiatives, including onboarding','◊ Created test suite and designed single function test modules to be stacked to create comprehensive tests'],
           },
           {
-            id: 3,
+            id: 5,
             name: 'WeWork Labs',
             image_url: '',
             site_url: 'https://www.wework.com/labs/',
