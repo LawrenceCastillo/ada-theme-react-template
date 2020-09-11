@@ -5,7 +5,13 @@ import './detail.styles.wall3.css'
 import './detail.styles.list.css'
 
 const imageTrue = (design, image_url, name ) => {
-  return image_url ? <img className={`${design}-photo`} src={image_url} alt={name} /> : <h2 className={`${design}-h2`}>{name}</h2>
+  return image_url ? 
+    <img 
+      className={`${design}-photo`} 
+      src={image_url} alt={name} 
+    /> 
+    : 
+    <h2 className={`${design}-h2`}>{name}</h2>
 }
 export const Detail = ({ group, design }) => {
   const { name, site_url, image_url, role, location, timeframe, description, highlights } = group
