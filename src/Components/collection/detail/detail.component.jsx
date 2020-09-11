@@ -4,20 +4,25 @@ import './detail.styles.wall2.css'
 import './detail.styles.wall3.css'
 import './detail.styles.list.css'
 
-const imageTrue = (design, group) => {
-  return group.image_url ? <img className={`${design}-photo`} src={group.image_url} alt={group.name} /> : <h2 className={`${design}-h2`}>{group.name}</h2>
+const imageTrue = (design, image_url, name ) => {
+  return image_url ? 
+    <img 
+      className={`${design}-photo`} 
+      src={image_url} alt={name} 
+    /> 
+    : 
+    <h2 className={`${design}-h2`}>{name}</h2>
 }
-export const Detail = props => {
-  const group = props.group
-  const design = props.design
+export const Detail = ({ group, design }) => {
+  const { name, site_url, image_url, role, location, timeframe, description, highlights } = group
   if (design === 'list') {
     return (
       <Fade bottom>
-        <a href={group.site_url} target="_blank" rel='noopener noreferrer'> <h2 className={`${design}-h2`}>{group.name}</h2> </a>
+        <a href={site_url} target="_blank" rel='noopener noreferrer'> <h2 className={`${design}-h2`}>{name}</h2> </a>
         <figure className={design}>
           <figcaption>
-            <h3 className={`${design}-h3`}>{group.role} {'//'} {group.location} {'//'} {group.timeframe} </h3>
-            <p className={`${design}-p`}>{group.description}</p>
+            <h3 className={`${design}-h3`}>{role} {'/'} {location} {'/'} {timeframe} </h3>
+            <p className={`${design}-p`}>{description}</p>
           </figcaption>
         </figure>
       </Fade>
@@ -26,10 +31,14 @@ export const Detail = props => {
     return (
       <Fade bottom>
         <figure className={design}>
-          <a href={group.site_url} target="_blank" rel='noopener noreferrer'> {imageTrue(design, group)} </a>
+          <a href={site_url} target="_blank" rel='noopener noreferrer'> {imageTrue(design, image_url, name )} </a>
           <figcaption>
-            <h3 className={`${design}-h3`}>{group.role} {'//'} {group.location} {'//'} {group.timeframe} </h3>
-            <p className={`${design}-p`}>{group.description}</p>
+            <h3 className={`${design}-h3`}>{`${role}`} </h3>
+            <p className={`${design}-p`}>{description}</p>
+            <ul className={`${design}-ul`}>
+              {highlights.map((item, index) => <li key={index} className={`${design}-li`}> {item} </li>)}
+            </ul>
+            <h3 className={`${design}-h3`}>{`[${location}] ${timeframe}`} </h3>
           </figcaption>
         </figure>
       </Fade>

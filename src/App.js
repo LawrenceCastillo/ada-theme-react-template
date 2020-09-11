@@ -25,7 +25,6 @@ class App extends Component {
     this.state = {
       personal: {},
       experience: {},
-      projects: {},
       education: {},
     }
   }
@@ -36,7 +35,6 @@ class App extends Component {
     .then(userAPI => this.setState({ 
       personal: userAPI.personal[0],
       experience: userAPI.groups[0].experience,
-      projects: userAPI.groups[1].projects,
       education: userAPI.groups[2].education, 
     }))
     .catch(err => {
@@ -44,14 +42,13 @@ class App extends Component {
       this.setState({
         personal: user.personal[0],
         experience: user.groups[0].experience,
-        projects: user.groups[1].projects,
         education: user.groups[2].education,
       })
     })
   }
 
   render() {
-    const { personal, experience, projects, education } = this.state
+    const { personal, experience, education } = this.state
     return (
       <div>
         { personal.name ? 
@@ -81,13 +78,8 @@ class App extends Component {
           */}
 
           <Collection 
-            section={'projects'} 
+            section={'experience + projects'} 
             design={'wall2'} 
-            groups={projects} />
-
-          <Collection  
-            section={'experience'} 
-            design={'wall3'} 
             groups={experience} />
 
           <Collection 
