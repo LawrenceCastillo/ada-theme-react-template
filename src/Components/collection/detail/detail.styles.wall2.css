@@ -25,7 +25,7 @@
   transform: scale(1.05);
   overflow: hidden;
 }
-figcaption {
+.wall2-figcaption {
   padding: 1rem 2rem;
 }
 .wall2-h3 {

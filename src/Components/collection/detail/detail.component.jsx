@@ -32,7 +32,7 @@ export const Detail = ({ group, design }) => {
       <Fade bottom>
         <figure className={design}>
           <a href={site_url} target="_blank" rel='noopener noreferrer'> {imageTrue(design, image_url, name )} </a>
-          <figcaption>
+          <figcaption className={`${design}-figcaption`}>
             <h3 className={`${design}-h3`}>{`${role}`} </h3>
             <p className={`${design}-p`}>{description}</p>
             <ul className={`${design}-ul`}>
