@@ -17,7 +17,7 @@ export default
         about: 'Hey, I\'m Lawrence 👋 I\'m a fanatic about new technologies including microprocessors for around-the-home projects and all things involving AR... It\'s the future of tech. When I\'m not geeking out on new technology or coding apps for the web, you can generally find me getting my hands dirty with everything from carving woodblocks and making paper, to electroplating silver to copper for Daguerreotypes. Say hi and let\'s talk about your project.',
         skills:
         [
-          'JavaScript/ TypeScript', 'React/ React-Native', 'Swift/ SwiftUI', 'CSS/ SASS', 'Redux', 'Hooks', 'MobX', 'GraphQL', 'Node.js','MongoDB', 'Firebase', 'Netlify'
+          'JavaScript', 'React', 'SwiftUI', 'SASS', 'Redux', 'Hooks', 'MobX', 'GraphQL', 'Node.js','MongoDB', 'Firebase', 'Netlify'
         ],
         social:       
         [
