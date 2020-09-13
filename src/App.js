@@ -68,6 +68,7 @@ class App extends Component {
           <NavigationBar />
           <Header personal={personal} />
           <SocialBar icons={personal.social}/>
+          <Contact personal={personal} />
 
           {/* 
             Begin Edit
@@ -90,7 +91,6 @@ class App extends Component {
             End Edit
           */}
 
-          <Contact personal={personal} />
           <Footer />
         </div>
 
