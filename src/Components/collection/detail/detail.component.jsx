@@ -18,7 +18,17 @@ export const Detail = ({ group, design }) => {
   if (design === 'list') {
     return (
       <Fade bottom>
-        <a href={site_url} target="_blank" rel='noopener noreferrer'> <h2 className={`${design}-h2`}>{name}</h2> </a>
+        {site_url ?
+          <a 
+            href={site_url} 
+            target="_blank" 
+            rel='noopener noreferrer'
+          > 
+            <h2 className={`${design}-h2`}>{name}</h2> 
+          </a>
+          :
+          <h2 className={`${design}-h2`}>{name}</h2> 
+        }
         <figure className={design}>
           <figcaption className={`${design}-figcaption`} >
             <h3 className={`${design}-h3`}>{role} {'/'} {location} {'/'} {timeframe} </h3>
@@ -31,7 +41,17 @@ export const Detail = ({ group, design }) => {
     return (
       <Fade bottom>
         <figure className={design}>
-          <a href={site_url} target="_blank" rel='noopener noreferrer'> {imageTrue(design, image_url, name )} </a>
+          {site_url ?
+            <a 
+              href={site_url} 
+              target="_blank" 
+              rel='noopener noreferrer'
+            > 
+              {imageTrue(design, image_url, name )} 
+            </a>
+            :
+            <div> {imageTrue(design, image_url, name )} </div>
+          }
           <figcaption className={`${design}-figcaption`}>
             <h3 className={`${design}-h3`}>{`${role}`} </h3>
             <p className={`${design}-p`}>{description}</p>
