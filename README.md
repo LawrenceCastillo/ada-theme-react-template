@@ -6,7 +6,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/42e520fe-9d83-470c-8b40-10060adec0e6/deploy-status)](https://app.netlify.com/sites/lawrencecastillo/deploys)
 
-App deployed to Netlify, view here: [lawrencecastillo.netlify.app](https://lawrencecastillo.netlify.app/)
+App deployed to Netlify, view here: [lawrencecastillo.com](https://lawrencecastillo.com)
 
 #### Running this app:
 1. Fork the repository
