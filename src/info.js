@@ -24,14 +24,20 @@ export default
           {
             id: 1,
             name: 'Github',
-            icon_url: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
+            icon_url: '/images/social-icons/GitHub-Mark.png',
             profile_url: 'https://github.com/lawrencecastillo'
           },
           {
             id: 2,
             name: 'LinkedIn',
-            icon_url: 'https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png',
+            icon_url: '/images/social-icons/linkedin-2.png',
             profile_url: 'https://www.linkedin.com/in/lawrence-gabriel-castillo/'
+          },
+          {
+            id: 3,
+            name: 'Resume',
+            icon_url: '/images/social-icons/file-icon.png',
+            profile_url: '/docs/LawrenceCastillo_Resume.pdf'
           },
         ],
         interests:
