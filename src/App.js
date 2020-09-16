@@ -78,7 +78,7 @@ class App extends Component {
           */}
 
           <Collection 
-            section={'experience + projects'} 
+            section={'work + projects'} 
             design={'wall2'} 
             groups={experience} />
 
