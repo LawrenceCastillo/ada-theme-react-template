@@ -4,7 +4,7 @@ import './footer.styles.css'
 export const Footer = () => (
   <div className='footer'>
     <a className='footer-link' 
-      href='https://www.linkedin.com/in/lawrence-gabriel-castillo/' 
+      href='https://github.com/LawrenceCastillo/ada-theme-react-template' 
       target="_blank" 
       rel='noopener noreferrer'> 
         "Ada" theme designed and built by Lawrence Castillo 
