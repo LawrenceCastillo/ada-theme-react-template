@@ -32,23 +32,12 @@ export const NavigationBar = () => {
           <Link
             className='link'
             activeClass='active'
-            to='projects'
+            to='work + projects'
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}>
-          <span role="img" aria-label="projects">🎒</span></Link>
-        </li>
-        <li>
-          <Link
-            className='link'
-            activeClass='active'
-            to='experience'
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}>
-          <span role="img" aria-label="experience">💼</span></Link>
+          <span role="img" aria-label="work + projects">💼</span></Link>
         </li>
         <li>
           <Link
