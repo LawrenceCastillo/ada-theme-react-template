@@ -21,17 +21,6 @@ export const NavigationBar = () => {
           <Link
             className='link'
             activeClass='active'
-            to='contact'
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}>
-          <span role="img" aria-label="contact">📬</span></Link>
-        </li>
-        <li>
-          <Link
-            className='link'
-            activeClass='active'
             to='work + projects'
             spy={true}
             smooth={true}
@@ -49,6 +38,17 @@ export const NavigationBar = () => {
             offset={-70}
             duration={500}>
           <span role="img" aria-label="education">🎓</span></Link>
+        </li>
+        <li>
+          <Link
+            className='link'
+            activeClass='active'
+            to='contact'
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
+          <span role="img" aria-label="contact">📬</span></Link>
         </li>
       </ul>
     </nav> 

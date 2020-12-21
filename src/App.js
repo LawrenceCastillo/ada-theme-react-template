@@ -68,7 +68,6 @@ class App extends Component {
           <NavigationBar />
           <Header personal={personal} />
           <SocialBar icons={personal.social}/>
-          <Contact personal={personal} />
 
           {/* 
             Begin Edit
@@ -86,6 +85,8 @@ class App extends Component {
             section={'education'} 
             design={'wall3'} 
             groups={education} />
+
+          <Contact personal={personal} />
 
           {/* 
             End Edit
